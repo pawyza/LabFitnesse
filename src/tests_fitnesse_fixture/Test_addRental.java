@@ -19,11 +19,11 @@ public class Test_addRental extends ColumnFixture{
 
  public boolean addRental_()
  { result=null;
- SetUp.facade.addVehicle(datainvehicles);
- SetUp.facade.addRegisteredVehicle(datainvehicles,datainregisteredvehicle);
- SetUp.facade.addReservation(datainvehicles,datainreservation,LocalDate.of(daterenting[0],daterenting[1],daterenting[2]),LocalDate.of(datereturn[0],datereturn[1],datereturn[2]));
+ //SetUp.facade.addVehicle(datainvehicles);
+ //SetUp.facade.addRegisteredVehicle(datainvehicles,datainregisteredvehicle);
+ //SetUp.facade.addReservation(datainvehicles,datainreservation,LocalDate.of(daterenting[0],daterenting[1],daterenting[2]),LocalDate.of(datereturn[0],datereturn[1],datereturn[2]));
  result = SetUp.facade.addRental(datainvehicles,datainregisteredvehicle,datainreservation,LocalDate.of(daterenting[0],daterenting[1],daterenting[2]),LocalDate.of(datereturn[0],datereturn[1],datereturn[2]),condition,numid,cost);
- data = SetUp.data.reservationData[number];
+ data = SetUp.data.rentalData[number];
  return data.equals(result);
  }
 }

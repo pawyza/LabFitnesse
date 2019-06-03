@@ -19,8 +19,8 @@ public class Test_addReservation extends ColumnFixture{
 
  public boolean addReservation_()
  { result=null;
- SetUp.facade.addVehicle(datainvehicles);
- SetUp.facade.addRegisteredVehicle(datainvehicles,datainregisteredvehicle);
+ //SetUp.facade.addVehicle(datainvehicles);
+ //SetUp.facade.addRegisteredVehicle(datainvehicles,datainregisteredvehicle);
  result=SetUp.facade.addReservation(datainvehicles,datainreservation,LocalDate.of(daterenting[0],daterenting[1],daterenting[2]),LocalDate.of(datereturn[0],datereturn[1],datereturn[2]));
  
  data=SetUp.data.reservationData[number];

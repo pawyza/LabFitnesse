@@ -17,7 +17,7 @@ public class Test_addRegisteredVehicle extends ColumnFixture{
 
  public boolean addRegisteredVehicle_()
  { result=null;
- SetUp.facade.addVehicle(datainvehicles);
+ //SetUp.facade.addVehicle(datainvehicles);
  result=SetUp.facade.addRegisteredVehicle(datainvehicles, datainregisteredvehicles).toString();
  data=SetUp.data.registeredVehicleData[number];
  return data.equals(result);

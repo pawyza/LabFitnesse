@@ -14,18 +14,18 @@ public class Data1 {
     };
 
     public String vehicleData2[] = {
-        "Brand:brand1 Model:model1 Color:black seatsNumber:4 doorsNumber:5 carType:combi ",
-        "Brand:brand2 Model:model2 Color:yellow seatsNumber:5 doorsNumber:3 carType:sedan "
+        "Brand:brand4 Model:model1 Color:black seatsNumber:4 doorsNumber:5 carType:combi ",
+        "Brand:brand5 Model:model2 Color:yellow seatsNumber:5 doorsNumber:3 carType:sedan "
     };
         
     public String vehicleData3[] = {
-        "Brand:brand1 Model:model1 engineType:petrol engineCapacity:2.0 ",
-        "Brand:brand2 Model:model2 engineType:diesel engineCapacity:1.5 "
+        "Brand:brand6 Model:model1 engineType:petrol engineCapacity:2.0 ",
+        "Brand:brand7 Model:model2 engineType:diesel engineCapacity:1.5 "
     };
     
     public String vehicleData4[] = {
-        "Brand:brand1 Model:model1 Color:black seatsNumber:4 doorsNumber:5 engineType:petrol engineCapacity:2.0 carType:combi ",
-        "Brand:brand2 Model:model2 Color:yellow seatsNumber:5 doorsNumber:3 engineType:diesel engineCapacity:1.5 carType:sedan "
+        "Brand:brand8 Model:model1 Color:black seatsNumber:4 doorsNumber:5 engineType:petrol engineCapacity:2.0 carType:combi ",
+        "Brand:brand9 Model:model2 Color:yellow seatsNumber:5 doorsNumber:3 engineType:diesel engineCapacity:1.5 carType:sedan "
     };
     
     public String datavehicles[][] = {vehicleData1,vehicleData2,vehicleData3,vehicleData4};
@@ -42,7 +42,7 @@ public class Data1 {
         //"Registration number: 515 Brand:brand1 Model:model1  Forename: Forename1 Surname: Surname1 Number: 4 Renting Date: 2019-07-05 Return Date: 2019-07-10"
     };
     
-        public String rentalData[] = {
+    public String rentalData[] = {
         "rented",
         "rented"
         //"Registration number: DW123 Brand:brand1 Model:model1  Forename: Forename1 Surname: Surname1 Number: 2 Renting Date: 2019-07-05 Return Date: 2019-07-06",
