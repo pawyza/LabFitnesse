@@ -32,19 +32,23 @@ public class Data1 {
     
     public String registeredVehicleData[] = {
         "Registration number: DW123 Brand:brand1 Model:model1  ",
-        "Registration number: DW321 Brand:brand2 Model:model2  "
+        "Registration number: DW321 Brand:brand2 Model:model2  ",
+        "no such vehicle"
     };
     
     public String reservationData[] = {
         "reserved",
-        "reserved"
+        "no such free registered vehicle",
+        "no such vehicle"
         //"Registration number: DW123 Brand:brand1 Model:model1  Forename: Forename1 Surname: Surname1 Number: 2 Renting Date: 2019-07-05 Return Date: 2019-07-06",
         //"Registration number: 515 Brand:brand1 Model:model1  Forename: Forename1 Surname: Surname1 Number: 4 Renting Date: 2019-07-05 Return Date: 2019-07-10"
     };
     
     public String rentalData[] = {
         "rented",
-        "rented"
+        "no such reservation",
+        "no such registered vehicle",
+        "no such vehicle"
         //"Registration number: DW123 Brand:brand1 Model:model1  Forename: Forename1 Surname: Surname1 Number: 2 Renting Date: 2019-07-05 Return Date: 2019-07-06",
         //"Registration number: 515 Brand:brand1 Model:model1  Forename: Forename1 Surname: Surname1 Number: 4 Renting Date: 2019-07-05 Return Date: 2019-07-10"
     };

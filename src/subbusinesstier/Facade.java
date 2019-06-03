@@ -186,7 +186,7 @@ public class Facade {
         if ((vehicleReference = searchVehicle(vehicle)) != null){
                 return vehicleReference.addRegisteredVehicle(data2);
         }
-        return null;
+        return "no such vehicle";
     }
 
     public ArrayList<String> getRegisteredVehicleModel() {
